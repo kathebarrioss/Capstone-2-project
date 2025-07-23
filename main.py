@@ -72,6 +72,8 @@ with tab3:
         "q12": st.radio("Are they pressuring you into making a decision urgently?", ('No', 'Yes'))
     }
 
+    st.header("Conclusions")
+
     if questions["q1"] == 'Yes':
         st.write("A company will usually almost never directly message you for a job. This tactic is commonly used by scammers to look for victims.")
     if questions["q2"] == 'Yes':
